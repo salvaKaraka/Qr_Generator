@@ -1,4 +1,4 @@
-import Generator from "@/components/qr-generator/generator";
+import Generator from "@/components/qr-generator/Generator";
 
 export default function Home() {
   return (
