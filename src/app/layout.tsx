@@ -5,8 +5,8 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "QR Generator",
-  description: "A simple QR code generator",
+  title: "Generador de QR",
+  description: "Un simple generador de QR",
 };
 
 export default function RootLayout({
