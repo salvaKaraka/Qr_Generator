@@ -3,17 +3,12 @@ import { useEffect, useState } from 'react';
 import QRCode from 'qrcode.react';
 
 export default function Generator() {
-    const [url, setUrl] = useState('');
+    const [url, setUrl] = useState('qr.salvadorkarakachoff.com');
 
     return (
         <section className="flex flex-col justify-center items-center gap-10">
 
-            {url === '' ? (
-                <p className="text-2xl">Ingresa una URL</p>
-            ) : (
-                <QRCode value={url}  renderAs="svg" size={256}/>
-            )
-            }
+            <QRCode value={url}  renderAs="svg" size={256}/>
 
             <input
                 className='p-2 border-2 border-gray-300 rounded-md'
